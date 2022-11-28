@@ -170,7 +170,7 @@ h1 {
 /* Career section  styling */
 
 .career-section {
-  width: 96%;
+  width: 97%;
   height: 93vh;
   border: 1px solid gray;
   margin: 1% 2%;
@@ -225,6 +225,24 @@ color: black;
   font-weight: bolder;
 }
 
+.scrol {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 40%;
+  left: 95.5%;
+  transform: translateY(70%);
+  display: inline-flex;
+  justify-content: center;
+  padding: 0 1.2rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+
 /* Advert section  styling */
 
 .advert-section {
@@ -263,6 +281,11 @@ color: black;
  }
 
  /* Students section  styling */
+ 
+.students-section {
+  padding-left: 10px;
+  margin: 10px;
+}
 
  .students-text {
   margin-top: 12vh;
