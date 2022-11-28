@@ -249,10 +249,25 @@ color: black;
   width: 20px;
   height: 20px;
   margin: 10px 10px;
-  
-
  }
 
+ /* Topics section  styling */
+
+ /* Trust section  styling */
+
+ .trust {
+  height: 60vh;
+  width: 100%;
+  padding: 20vh 2%;
+  line-height: 3rem;
+  text-align: center;
+ }
+
+ .trust-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
 
 /* Business section  styling */
 
@@ -262,26 +277,41 @@ color: black;
   justify-content: space-between;
   width: 80%;
   height: 60vh;
-  margin-left: 30vh;
+  margin-left: 20vh;
   margin-top: 10vh;
- white-space: 3rem;
+}
+
+.div-business2 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.business-purple {
+  font-size: 2rem;
+  color: blueviolet;
 }
 
 .business-text2 {
   width: 45%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 15vh;
-  line-height: 2rem;
+  margin-top: 3rem;
+  line-height: 3rem;
 }
 
 .business-header2 {
   margin-bottom: 20px;
 }
 
+.business-lists {
+  line-height: 2rem;
+}
+
 .business-learn {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
 }
 
 .busines-link {
@@ -292,7 +322,7 @@ color: black;
   font-size: 1.1rem;
   font-weight: bolder;
   background-color: black;
-  padding: 7px 10px;
+  padding-bottom: 10px;
   margin-top: 20px;
 }
 
@@ -301,15 +331,17 @@ color: black;
 }
 
 .learn-link {
-  width: 30vh;
+  width: 20vh;
   height: 2.8rem;
   border: 1px solid black;
   color: black;
   font-size: 1.1rem;
   font-weight: bolder;
   background-color: white;
-  padding: 7px 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   margin-top: 20px;
+  margin-left: 5px;
 }
 
 .link-b2 {
