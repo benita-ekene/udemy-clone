@@ -23,62 +23,82 @@
 
 a {
   text-decoration: none;
-  color: black;
+  text-decoration-color: none;
+  
 }
 
 .search_box > input{
   flex-grow: 2;
   border: 1px solid white;
-  width: 95%;
-  height: 30px;
+  width: 40vh;
+  height: 40px;
   margin-right:15px;
   border-radius: 30px; 
   outline:none;
- 
+  background-color: rgb(247, 246, 246);
 }
 
 .search-button {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
  padding-left: 10px;
+ padding-top: 15px;
+ margin-right: 15px;
 }
 
 .search_box {
   flex-grow: 2;
-  margin-bottom: 1%;
+  margin: 1% 3%;
   display: flex;
-  margin-top: 5px;
+  width: 40vh;
   border: 1px solid black;
   border-radius: 40px;
+  background-color: rgb(247, 246, 246);
+}
+
+.header-text{
+  padding: 10px;
 }
 
 .cart > img {
   width: 30px;
   height: 20px;
+  margin-right: 15px;
+  margin-left: 10px;
+
 }
 
 .login-link {
   background: white;
   border: 1px solid black;
-  width: 90px;
-  margin: 10px auto;
+  width: 75px;
+  height: 40px;
   font-weight: bold;
   font-size: 0.8rem;
+  color: black;
 }
 
 .signup-link {
   background: black;
   border: 1px solid black;
-  width: 90px;
+  width: 76px;
+  height: 40px;
   margin: 10px 3px;
   font-weight: bold;
   font-size: 0.8rem;
+  
+}
+
+.link-signup {
+  color: white;
 }
 
 .map1-img {
   background: white;
   border: 1px solid black;
   margin: 10px 3px;
+  width: 40px;
+  height: 40px;
 }
 
 .map1-img > img{
@@ -129,8 +149,12 @@ h1 {
   width: 96%;
   margin: 0 auto;
   padding-top: 45px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.8;
+}
+
+.hero-courses {
+  color: black;
 }
 
 .list-courses {
@@ -142,6 +166,93 @@ h1 {
   width: 62%;
   font-size: 1.1rem;
 }
+
+/* Career section  styling */
+
+.career-section {
+  width: 96%;
+  height: 80vh;
+  border: 1px solid black;
+  margin: 1% 2%;
+  padding: 2%;
+}
+
+.career-text {
+  width: 65%;
+}
+
+.career-heading{
+  margin-bottom: 12px;
+}
+
+.career-link {
+  width: 20vh;
+  height: 2.6rem;
+  border: 1px solid black;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  background-color: white;
+  padding: 7px 10px;
+  margin-top: 20px;
+}
+
+.link-career {
+color: black;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card{
+  width: 19%;
+  height: 40vh;
+  margin: 2px;
+  background-color: aquamarine;
+}
+
+/* Advert section  styling */
+
+.advert-section {
+  background-color:#e8eeec;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  font-size: 18px;
+  color:rgb(44, 44, 44);
+  font-weight: 600;
+  width:100%;
+  height: 15vh;
+  padding: 2%;
+  margin-top:5%;
+}
+
+.advert-class {
+  display:flex;
+  flex-direction:row;
+  width: 52vh; 
+  
+}
+
+.advert-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: rgb(170, 165, 165);
+}
+
+ .advert-img {
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px;
+  
+
+ }
+
 
 /* Business section  styling */
 
